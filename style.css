@@ -1,0 +1,47 @@
+body{
+	margin:0px;
+	font-family: 'Poppins', sans-serif;
+}
+.parent{
+	height:50px;
+	background-color:#24252a;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+.parent div:last-child a:first-child, .parent div:last-child a:nth-child(2), .parent div:last-child a:nth-child(3), .parent div:last-child button{
+color:white;
+text-decoration:none;
+padding-right: 40px;	
+	
+}
+.parent div:last-child button{
+	background: #0189a1;
+    width: 100px;
+    height: 30px;
+    border-radius: 35px;
+	padding: initial;
+	border:0px;
+}
+.parent div:last-child{
+	background-color:#24252a;
+	display: flex;
+    align-items: center;
+    height: 50px;
+	    padding-right: 60px;
+			flex-wrap:wrap;
+}
+.parent div:first-child{
+	background-color:#24252a;
+	display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 80px;
+}
+.parent div:first-child h2{
+	
+	color: white;
+    font-size: 16px;
+}
+
